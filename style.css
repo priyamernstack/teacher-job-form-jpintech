@@ -1,141 +1,24 @@
-/*body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 600px;
-}
-h2 {
-    text-align: center;
-    color: #333;
-}
-label {
-    display: block;
-    margin-top: 10px;
-}
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 15px;
-    background: #28a745;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-button:hover {
-    background: #218838;
-}
-
-/* Responsive Design */
-/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    background-color: #f8f9fa;
 }
 
-/* Form Container */
-.container {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 600px;
+.card {
+    border-radius: 12px;
 }
 
-/* Form Heading */
 h2 {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 18px;
-    margin-top: 20px;
-    color: #333;
-}
-
-/* Input Fields */
-.form-group {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.input-box {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.input-box.full-width {
-    flex: 2;
-}
-
-label {
     font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 14px;
 }
 
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
+.text-secondary {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
 }
 
-/* File Upload */
-input[type="file"] {
-    border: none;
+.form-control, .form-select {
+    border-radius: 8px;
 }
 
-/* Submit Button */
-button {
-    width: 100%;
-    padding: 12px;
-    background-color: #2d6cdf;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #2554a0;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-    .form-group {
-        flex-direction: column;
-    }
+.btn {
+    border-radius: 8px;
 }
